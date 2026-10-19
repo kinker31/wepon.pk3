@@ -1,0 +1,9 @@
+GameInfo
+{
+	PlayerClasses = "Freechmen"
+	StatusBarClass = "FuckYouSBARINFO"
+	TitlePage = "EPICTITLE"
+	QuitMessages =  "$QUITMESSAGE"
+	AddEventHandlers =  "id24Handler", "ReplaceVanillaActors", "BFGCellHandler", "id24SpawnLogic", "UZDoomDiesWhenItsKilled"
+	QuitSound = "bye"
+}

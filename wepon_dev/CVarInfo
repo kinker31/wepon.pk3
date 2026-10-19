@@ -1,0 +1,10 @@
+server bool cellsystem = true;
+server bool altpistol = false;
+server bool stronkBFG = true;
+server bool buckshotbehavior = true;
+server bool id24crap;
+user bool fragbox;
+user bool barfix;
+user bool bfgSkin;
+server int  bfgcellchance;
+server int  cellfuelchance;

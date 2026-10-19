@@ -1,0 +1,8 @@
+//#include "./fistpack.zs"
+#include "./goldenpistol.zs"
+#include "./blatantlyop.zs"
+#include "./ultrashotgun.zs"
+#include "./superplasma.zs"
+#include "./superlauncher.zs"
+#include "./superthrower.zs"
+#include "./superchaingun.zs"

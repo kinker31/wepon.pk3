@@ -1,0 +1,173 @@
+[enu default]
+
+ADONN_OPTION = "Option for Adonn";
+
+GOLDPIST = "Golden Pistol of Destiny*:";
+F1_GOLDPIST = "If enables, allows the titular weapon to spawn.";
+F1_GOLDPISTB = "Uses an entirely seperate ammo pool that can rarely";
+F2_GOLDPIST = "replace either large cell packs or BFG cells, but not fuel.";
+F2_GOLDPISTB = "A little excessive, mind you.";
+
+GOLDSPAWN = "Golden Spawnrate of Destiny*:";
+F_GOLDSPAWN = "If the Golden Pistol can replace the BFG, how hard";
+F2_GOLDSPAWN = "should it be to find and obtain one?";
+
+ALTARMOR = "Alternate Armor Pickups*:";
+F1_ALTARMOR = "Toggles the spawning of extra armor types.";
+F2_ALTARMOR = "Gold Armor has a chance to replace green armor,";
+F2_ALTARMORB = "and is an in-between of green/blue armor.";
+F3_ALTARMOR = "Demon plating has a small chance to replace";
+F3_ALTARMORB = "blue armor, and provides stupendous protection.";
+
+SPHERE1 = "Blursphere(s) Status*:";
+F_SPHERE1 = "Configues if blurspheres should be replaced with superspeed spheres.";
+SPHERE2 = "Soulsphere(s) Status*:";
+F_SPHERE2 = "Configues if soulspheres should be replaced with aegis spheres.";
+SPHERE3 = "Godsphere(s) Status*:";
+F_SPHERE3 = "Configues if invulnsshould be replaced with quad damage spheres.";
+SPHERE4 = "Megasphere(s) Status*:";
+F1_SPHERE4 = "Configues if megaspheres should be replaced with ultraspheres.";
+F2_SPHERE4 = "(This option has no use whatsoever in Doom 1.)";
+
+CHAINREP = "Replace the Twin-Bladed Chainsaw with*:";
+F1_CHAINREP = "Use in Case of something like Slaughterfest or Goodwad.";
+F2_CHAINREP = "Way too OP on a vanilla-esque mapset, use at your own discretion.";
+
+SUPERWEP = "Spawn the Ultra Wepons*:";
+F1_SUPERWEP = "If enabled, spawns more powerful (if less efficient) versions of your";
+F2_SUPERWEP = "mid-tier weaponry to show up in your levels. Also applies to the";
+F3_SUPERWEP = "id24-exclusive Incinerator as well if applicable.";
+
+//PACKFIST = "Spawn the Fisti-Pack*:";
+//F1_PFIST = "If enabled, allows the Fist-I-Pack to show up alongside the";
+//F2_PFIST = "berserk pack, and is able to stack. Only lasts for about a";
+//F3_PFIST = "minute and a half as compensation, though.";
+
+RARE1 = "Extremely Rare";
+RARE2 = "Very Rare";
+RARE3 = "Rare";
+RARE4 = "Uncommon";
+
+SAWOPT1 = "actually don't";
+SAWOPT2 = "The Infinite Rocket Launcher";
+SAWOPT3 = "The BFG";
+SAWOPT4 = "The SSG (Doom 2 Only!)";
+
+SHPOPT1 = "Keep Vanilla Sphere";
+SHPOPT2 = "Replace with Alt. Sphere";
+SHPOPT3 = "Half Vanilla, Half Alt";
+SHPOPT4 = "Mostly Alt, Few Vanilla";
+SHPOPT5 = "Mostly Vanilla, Few Alt";
+
+QUITM1 = 	"When I milk a clown in the night,\noh baby he feel so tight.\n"
+			"It is so crazy cool,\nand I never went to school."; //Joel - Sims 4
+QUITM2 = 	"When you need to take a dump,\nfirst take a dump.";
+QUITM3 = 	"One day, I will truly wield the magic of quaternions like a proper "
+			"code wizard. Today is not one of those days.";
+QUITM4 = 	"Oh, that's it! I'm totally gonna keep working at this job but "
+			"totally start complaining about it a little bit more!"; //sbemail - from work
+QUITM5 = 	"le munty is a bad, moist updoots chungus to the left"; //Reddit
+QUITM6 = 	"Don't pee on the floor, use the commedore!"; //Space Goofs - Stupid Invaders
+QUITM7 = 	"TODAY WE'RE GOING TO BE COOKING SASAUGES WITH MY NEW COOKING GADGET: "
+			"A HOB, WITH AN ORGAN."; //Caddicarus - PS1 Accesories
+QUITM8 = 	"Sorry, no creative quit message here.\nThey can't all be winners.";
+QUITM9 = 	"Please be sure to\nshameless promotion plug here!";
+QUITM10 =	"What, you forgot Gun Bonsai?";
+QUITM11 = 	"Insert joke made at the expense of a demographic scapegoat here.";
+QUITM12 = 	"WATCH THE FUCK OUT, CITIZENS OF BUBSYLAND, 'CAUSE CAPTAIN BUBSY'S "
+			"HERE, DRUNK AS SHIT AND HEAVILY ARMED WITH\n\nP  U  N  S"; //JonTron - Bubsy
+QUITM13 = 	"ert+\ny76p; '0lu8jykee;u4p;e'/Rh\nStrong ba15456`-------++++++gf\n"
+			"+++++-//==========/*8901ikg"; //sbemail - virus
+QUITM14 = 	"I understand. \"You do?\"\n"
+			"I understand that YOU'RE BAD BUNNIES!"; //Rack, Shack, and Benny
+QUITM15 = 	"sit on the n key for a good, violate the y key for a bad";
+QUITM16 = 	"Look, you can either take this yeast,\n"
+			"or I'm calling the police.\n\nI'm going weast.";
+QUITM17 = 	"RAYMOND, I AM FILING FOR DIVORCE NEXT WEEK ON THE GROUNDS OF NO "
+			"CONSUMMATION OF THE MARRIAGE AND NO LEGS"; //Caddicarus - PSX Cheats
+QUITM18 = 	"don't bounce me off the wall again,\n"
+			"that was mostly violent."; // Bill Wurtz - Ball and Stick
+QUITM19 = 	"Are you just mashing the Quit Game option over and over to read all these?";
+QUITM20 = 	"Program in FreeDoom Project compatibility yourself, "
+			"'cause I don't feel like it.";
+QUITM21 = 	"Let's go to Africa and\nfind love in the jungle!\n\n"
+			"Found it; I also found some soap."; //Bill Wurtz - Soap Tips
+QUITM22 = 	"I've got one leg missing...\nhow do I get around?"; //Meet the Feebles
+QUITM23 = 	"NATURE TRAIL TO HELL!\nNATURE TRAIL TO HELL!\n"
+			"NATURE TRAIL TO HELL!\n IN THREE DEE!\n"; //Weird Al
+QUITM24 = 	"To win the game, sit on your keyboard!";
+QUITM25 = 	"What, you forgot Target Spy\nand/or DamNums?";
+QUITM26 = 	"Don't you love it when TikTok decides they want to get their grubby "
+			"little hands on a song you like?"; //wepon.pk3's Trailer
+QUITM27 = 	"Please give me your entire bank at\n[DATA EXPUNGED]";
+QUITM28 = 	"I'm not responsible for any game of Deathmatch that gets ruined "
+			"by wepon + adonn.";
+QUITM29 = 	"The Gold Pistol's Altfire may be less powerful,\n"
+			"but is more efficient with ammo.";
+QUITM30 = 	"Keep track of the golden bullets yourself;\n"
+			"Cross-mod HUD compatibility is a nightmare.";
+QUITM31 = 	"Don't abandon the Intergalactic Federation of Cereals!"; //Chex Quest
+QUITM32 = 	"Don't die, don't die, please don't die,\n"
+			"you were alive before you died!"; // JonTron - Safety PSAs
+QUITM33 = 	"Sports, ball! Let's play sports!\nCricket Ball! Red Card!"; //DHMIS 6
+QUITM34 = 	"You'd be surprised how well BTSX works with these two mods.\n"
+			"Just don't pick up the id24 stuff.";
+QUITM35 = 	"Don't you love mods that hard require id24res.wad?";
+QUITM36 = 	"These guns are what ALL true warriors strive for!"; //Zelda CDI
+QUITM37 = 	"l   e   v   e   l\nd   e   s   i   n   e"; //Civvie11 - TekWar
+QUITM38 = 	"Strong Bad, were you just first-basin' "
+			"it with that piece of loose-leaf?!"; //Teen Girl Squad #10
+QUITM39 = 	"I'M GONNA CUT YOUR DICK\nI  '  M    G  O  N  N  A\n"
+			"C  U  T    Y  O  U  R\nD  I-"; //Pelo - Gender Wars
+QUITM40 = 	"#OutdatedPoliticalCampaignHashtag";
+QUITM41 = 	"uh... Hey Chief, look at this duck!"
+			"\n...\nThat's hilarious."; //TomSka - Rock Bottom
+QUITM42 = 	"Insert generic 'follow me on social media' message here.";
+QUITM43 = 	"10 PRINT 'return ResolveState();\'\n 20 GOTO 10";
+QUITM44 = 	"If only Voxel Doom had support for id24's stuff...";
+QUITM45 = 	"I hope that these sily little messages will distract you from the"
+			"fact that my ZScript is an absolutely frightening shame.";
+QUITM46 = 	"...For there is surely\nnothing more beautiful\nin this world than"
+			"the sight of a lone man\nfacing single-handedly a half a ton of\n"
+			"angry pot roast!"; // Tom Leher - Old Mexico
+QUITM47 = 	"What, you forgot Intelligent Inventory?";
+QUITM48 = 	"Rover was killed by a Pontiac.\nAnd it was done with such grace and "
+			"artistry that the witnesses awarded the driver both ears and the tail.\n\n"
+			"But I digress..."; // Also Tom Leher - Old Mexico
+QUITM49 = 	"Also try hepon.pk3 when I get around to developing and releasing it!";
+QUITM50 = 	"At last,\nthe matador did what we wanted him to,\n"
+			"He raised his sword and his aim was true,\n"
+			"In that moment of truth, I suddenly knew...\n"
+			"That someone had stolen my wallet.";  // Tom Leher - Yep, Still Old Mexico
+QUITM51 = 	"Do you remember when you broke your mom's face and the stapled it "
+			"back together and you put it in Aunt Millie's pajamas and she stuck "
+			"your sister in the food processor and she chewed up a giant lizard?\n\n"
+			"\"...why no.\"\n\n"
+			"That was really bad."; // A Story About Some Grapes and Junk
+QUITM52 = 	"We represent Rareware, and if you have a moment to spare, we'd "
+			"like to take a poop on top of you!"; // Madame Dudeberry and the Rareware Crockers
+QUITM53 = 	"Mario, oh my god what are you doing!?\n"
+			"I'm-a stomping on all the animals!\n"
+			"Yeah, yeah you are and it's horrifying!"; // "It's Super Mario!"
+QUITM54 = 	"A pork-fried headed washing machine,\n"
+			"what does that even mean!?\n"
+			"I'm gonna friggin' scree-ee-eeam!~"; // OneyPlays - SunoAI Songwriting
+//Ultra-weapon Advice
+QUITM55 = 	"For best results with the Toastier Rifle's primary fire, make sure "
+			"to keep the big blue yoyo in air for as long as possible.";
+QUITM56 = 	"The Bullet Storm Sr. can fire the same missiles the Triad Launcher "
+			"uses when set to Drunk Missile mode.";
+QUITM57 = 	"The Ultra Shotgun's more of a crowd dispersion tool than something "
+			"made for single-target usage.";
+//ZScript can be fun sometimes. :)
+QUITM58 = 	"Did you know ReplacementEvent can also potentially delete items "
+			"meant to go into your inventory? Found that out the hard way when "
+			"developing the ultra-weapons.";
+QUITM59 = 	"Did you know PowerWeaponLevel2 doesn't work across files? Until "
+			"the day comes that which it does, you're going to have to go "
+			"without a B-Side powerup to the berserk pack.";
+QUITM60 = 	"It's great to see you again, Vasali."; //I've missed you, VLIF.
+/*QUITM256 = 	"You didn't hear this from me, but some of UZDoom's development "
+				"team would gladly try retconning Graf out of GZDoom history if "
+				"they could get away with it.";*/
+

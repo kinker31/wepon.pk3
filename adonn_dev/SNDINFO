@@ -1,0 +1,29 @@
+$random misc/secret {s0 s1 s2 s3 s4 s5 s6 s7}
+$random byenow 		{q0 q1 q2 q3 q4 q5 q6 q7}
+
+s0 = "sounds/secret/SECRET1"
+s1 = "sounds/secret/SECRET2"
+s2 = "sounds/secret/SECRET3"
+s3 = "sounds/secret/SECRET4"
+s4 = "sounds/secret/SECRET5"
+s5 = "sounds/secret/SECRET6"
+s6 = "sounds/secret/SECRET7"
+s7 = "sounds/SECRET0"
+
+q0 = "sounds/exit/OKBYE1"
+q1 = "sounds/exit/OKBYE2"
+q2 = "sounds/exit/OKBYE3"
+q3 = "sounds/exit/OKBYE4"
+q4 = "sounds/exit/OKBYE5"
+q5 = "sounds/exit/OKBYE6"
+q6 = "sounds/exit/OKBYE7"
+q7 = "sounds/OKBYE0"
+
+usloop = 				"sounds/DSULTRALOOP"
+superplasma/fire = 		"sounds/SPLASFIRE"
+superplasma/altfire = 	"sounds/SPLASALT"
+superplasma/idle =		"sounds/SOUPIDLE"
+superboom/fire = 		"sounds/SUPROCK1"
+goldenpistol/fire =		"sounds/GOLDIE"
+supergun/fire = 		"sounds/SUPERCHAIN"
+superplasma/funni =		"sound/TOILET"

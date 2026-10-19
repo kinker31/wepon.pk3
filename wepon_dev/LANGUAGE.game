@@ -1,0 +1,54 @@
+[enu default]
+GOTBFGCORE = "Picked up a powerful, unstable BFG core. Be's careful!";
+GOTDIABLO = "Picked up a spicy jerry-can of Diablo Fuel. Be's careful!";
+
+TAGAFIST = "MacPunchy";
+CHAINTAG = "Twin Chainsaw";
+SIDETAG = "Pistols Akimbo";
+TAGSHOT = "Burstfire Shotgun";
+SUPERTAG = "Super DELUXE Shotgun";
+GUNTAG = "Mr. Bulletstorm (tm)";
+ROCKTAG = "Rocket Lawnmower";
+PLASMATAG = "Toasty Rifle";
+BFGTAG = "Big Fuckin' Gun";
+FIRETAG =  "FLAMETHROWAAH";
+BLADETAG = "Wrath of God";
+
+BOOMTRUE = "Grenades have been selected.";
+BOOMFALSE = "Rockets have been selected.";
+
+PEWTRUE = "Boolets can now pierce!";
+PEWFALSE = "Boolets are normal again.";
+
+SIDEWOW = "Pistols! How'd you lose them?";
+CHAINWOW = "Twin-bladed chainsaw, useless no longer!";
+SHOTWOW = "A pump action, now with burstfire!";
+SUPERWOW = "Pure, double-barreled might! Cool!";
+GUNWOW = "A chaingun, for when demons need more bullet.";
+ROCKWOW = "The Beggar's Bazooka- I mean, the Rocket Lawnmower.";
+PLASMAWOW = "The plasma rifle! Nice!";
+BFGWOW = "The Big Gun Itself. Time to melt demons!";
+FIREWOW = "The Incinerator! Now we're talking!";
+BLADEWOW = "Oh dear, it's a Calamity Blade!";
+
+FISTOUCH = "%k made it personal with %o.";
+CHAINOUCH = "%k taught %o the ways of Doom 64.";
+SIDEOUCH = "%k capped %o with akimbo pistols, for great justice.";
+SHOTOUCH = "%o undestimated %k's semiauto fire.";
+SHOTROCKOUCH = "%k's mini-rockets took %o by surprise.";
+SUPEROUCH = "%k turned %o into red mush.";
+GUNOUCH = "%k drowned %o in many, MANY bullet.";
+ROCKOUCH = "%k made %o do the explode-y bye bye.";
+GRENADEOUCH = "%k didn't even need direct line of %o's sight.";
+PLASMAOUCH = "%o + %k's Plasma Rifle = Toast.";
+BIGPLASMAOUCH = "%k's Big Blue Blast flash-fried %o.";
+PLASMAMINEOUCH = "%o appears to have trodden on %k's mine.";
+BFGOUCH = "%k completely, and utterly volated %o with the BFG.";
+BFGBALLOUCH = "%k earned a strike against %o.";
+BFGBOLTOUCH = "%k's Beta Bolts made quick work of %o.";
+FIREOUCH = "%k made %o do the melty bye-bye.";
+BLADEOUCH = "God Himself deemed %o unfit to live.";
+
+TXT_DEFAULTPICKUPMSG = "...wait, what did you pick up?";
+SECRETMESSAGE = "wow! it's secret!";
+QUITMESSAGE = "See you next time!";

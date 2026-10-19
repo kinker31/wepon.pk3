@@ -1,0 +1,8 @@
+#include "./melee.zs"
+#include "./pistols.zs"
+#include "./shotguns.zs"
+#include "./chaingun.zs"
+#include "./rockets.zs"
+#include "./plasmarifle.zs"
+#include "./bigfuckingun.zs"
+#include "./flamethrower.zs"

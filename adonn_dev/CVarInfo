@@ -1,0 +1,10 @@
+server int  blurspeed;
+server int  soulaegis;
+server int  invulnquad;
+server int  megaultra;
+server bool goldenpistol;
+server int  goldenrarity;
+server int  replacechainsaw;
+server bool superguns;
+//server bool fistpack_c;
+server bool altarmor;

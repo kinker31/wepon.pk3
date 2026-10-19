@@ -1,0 +1,88 @@
+[enu default]
+
+//Main Menu
+START_WEPON = "OK Start Already";
+OPTION_WEPON = "Option for wepon";
+OPTION_NOTWEPON = "Option for Not wepon";
+SAVEY_FILES = "Savin' Shite";
+FUCK_THIS = "lolnope";
+
+//Wepon Option Menu
+//Some lines have been further split to play more nicely with 4:3 resolutions.
+
+OPTION_TITLE = "Menu Of Wepon Option";
+EXTRA_MENU = "Adonn Options (will not work without adonn.pk3!)";
+RESTART_MAP = "*: Reset the map after modifying this option!";
+
+FRAGBOX = "Show the Frag Box:";
+F_FRAGBOX = "Toggles an extremely simplistic frag counter,";
+F2_FRAGBOX = "in case you want a simple kill counter or of deahmatch.";
+
+ARMFIX = "Invisible Armory Numbers Fix:";
+F_ARMFIX = "If the box that's supposed to show the wepon box";
+F2_ARMFIX = "isn't there, try turning this on. Turn it off otherwise.";
+
+ID24W = "Spawn The id24/plasma Wepons*:";
+F1_ID24W = "Toggles the option to spawn the Legacy of Rust";
+F1_ID24B = " wepon replacements alongside the plasma stuff.";
+F2_ID24W = "If you're on Legacy of Rust, it instead allows";
+F2_ID24B = "plasma wepons to spawn with the fuel weponry.";
+
+CELLSPAWN = "Cell/Fuel Spawn Chance*:";
+F1_CELLSPAWN = "If the above option's on, how often should";
+F1_CELLSPAWNB = "fuel cans spawn alongside plasma cells?";
+F2_CELLSPAWN = "If you're on Legacy of Rust, cells spawn";
+F2_CELLSPAWNB = "alongside fuel cans instead.";
+
+CELLSYSTEM = "Alternate Cell System*:";
+F1_CELLSYSTEM = "Toggles between vanilla cell usage";
+F1_CELLSYSTEMB = "and FinalDoomer-inspired BFG ammo usage.";
+F2_CELLSYSTEM = "Also works with the fuel cans if you're playing";
+F2_CELLSYSTEMB = "Legacy of Rust, or if you have the above option enabled.";
+
+BFGSPAWN = "BFG Cell Spawn Chance*:";
+F1_BFGSPAWN = "If the above option's on, how often should";
+F1_BFGSPAWNB = "BFG cells spawn alongside normal cells?";
+F2_BFGSPAWN = "Keep in mind, the same chance also applies";
+F2_BFGSPAWNB = "to the Diablo Fuel cans (Calamity Blade equivalent).";
+
+STRONK_BFG = "More BFG Damage:";
+F_STRONK_BFG = "If true, use values for the BFG's";
+F2_STRONK_BFG = "calculations, but don't do that if false.";
+
+INFPIST = "Infinite Pistols:";
+F1_INFPIST = "Toggles infinite ammo for the pistol-tier";
+F1_INFPISTB = "weapons, but will do less damage if turned on.";
+F2_INFPIST = "Much like the BFG system, this is also";
+F2_INFPISTB = "inspired by FinalDoomer.";
+
+BUCKSHOT = "Alternate Buckshot System:";
+F1_BUCKSHOT = "If on, the shotguns use an alternate firing system:";
+F1_BUCKSHOTB = "A few strong slugs, and a cloud of weak buckshot!";
+F2_BUCKSHOT = "If off, uses values and spread similar to the vanilla pointers.";
+F3_BUCKSHOT = "This option doesn't apply to the Ultra Shotgun or its ilk.";
+
+BFGSKIN = "Player-Colored BFG Blast:";
+F1_BFGSKIN = "Reskins the BFG ball and hitscan blasts to follow";
+F2_BFGSKIN = "the color picked by the player in the Player Setup menu.";
+F3_BFGSKIN = "Emulates an older version of wepon.pk3 that did this by default.";
+
+//id24 Replacement Chances
+
+R_FALL = "Fallback (Always Spawn)";
+R_ONE = "Always Spawn";
+R_TWO = "Half Chance";
+R_THREE = "Third Chance";
+R_FOUR = "Fourth Chance";
+
+CRASH_0 = "UZDoom has decided to shat the bed, and has died.";
+CRASH_1 = "Conflabulation! wepon Crashed!";
+CRASH_2 = "Don't worry, the UZDoom team's working hard blaming this on Graf Zahl.";
+CRASH_3 = "What a greatly-written mod this is!";
+CRASH_4 = "...oh. Hello. ...well this is embarassing.";
+CRASH_5 = "joel? joel!? did you download BOOBS again, joel!?";
+CRASH_6 = "...what are you looking at ME for, anyways!?";
+CRASH_7 = "They say Nugget Doom doesn't face this problem.";
+
+CRASH_WOW = "If the problem persists, prod me with a large stick or something.";
+R_EIGHT = "Eighth Chance";

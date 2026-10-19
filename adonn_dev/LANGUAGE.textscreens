@@ -1,0 +1,345 @@
+//IWAD LORE DUMP TIEM
+[enu default]
+
+//The Original Episodes
+E1TEXT =	"Well that was a pear-shaped pile of doodoo feces. Good thing this\n"
+			"isn't the only episode you get, otherwise you'd be rightfully\n"
+			"looking for the nearest big box outlet to get a refund with.\n"
+			"\n"
+			"Judging from the awful smell and slimy entrails all around you,\n"
+			"you must be in Hell's Beach Cabanas. Given the locals there aren't\n"
+			"going to be too keen on your presence, looks like the only way out\n"
+			"of this terrible vacation spot is straight through; I wouldn't even\n"
+			"try for the private hotel rooms if I were you.\n"
+			"\n"
+			"At least they've got some killer drinks, though. Silver lining.";
+/*	Hell's Cabana drinks are killer both figuratively AND literally: Quench your
+	tastebuds, fill your belly, mulch your insides, vomit blood for weeks, and
+	get posessed by a lost soul, becoming a twisted husk of yourself hellbent on 
+	world domination with just a single bottle of Hellfire Guava Fruit Bat 
+	Fruit Punch!
+
+	...on second thought, maybe just mix Um Bongo with vodka instead. */
+
+E2TEXT =	"Having dealt with the smug bovine insiting you stay for the blatant\n"
+			"tourist trap that was Hell's Shores, you find yourself in the most\n"
+			"awful part of hell yet: The Administrative Offices, a horrible place\n"
+			"where souls of the damned do mountains upon mountains of paperwork.\n"
+			"\n"
+			"\nOr worse... retail. Looks like you've gotta take this quest over\n"
+			"to their side now, if that wasn't obvious already. You've already\n"
+			"dealt with the worst part anyhow... but the red-clad masses of hooves\n"
+			"and flying meatball population will try their damnest to prove their\n"
+			"laughable counterpoint anyhow. You've got this, buddy.";
+/*	Some food for thought: Marble, guts, and hellfire is to the demons as
+	cubicles, dingy wallpaper, and quarterly stock reports are to us. Maybe 
+	that's the real horror of The Backrooms(tm): How infamously DULL the 
+	cubicle job is. */
+
+E3TEXT =	"Like most administrators (and commanders of hellish forces), the\n"
+			"biggest one on top's almost always the one that falls the easiest.\n"
+			"Just as you're about to finally leave this smouldering heap of\n"
+			"brimstone, paperwork, and burning flesh and hitch the nearest\n"
+			"teleporter network back to Earth, your comm-device flickers back to\n"
+			"life and starts ringing like crazy. ...and it's from Long Dennis,\n"
+			"requesting you clean out the demon infestation in his pie factory\n"
+			"in the middle of either one of Mars's Moons or Hell itself."
+			"\n"
+			"With artistic liberty, your angry swearing somehow gets interpreted\n"
+			"as a yes, and you get dumped somewhere unfamiliar before you can\n"
+			"finish your sentence. Looks like your work isn't done quite yet.\n"
+			"\n"
+			"In the meantime, you hope Earth's doing okay...";
+/*	The reason Dis is as pathetic as it is was that the demons got sick and 
+	tired of hearing her bark commands at them, locked her in her admin 
+	office... and left her for dead. There's a reason the Plasma Rifle was 
+	just sitting around. */
+
+E4TEXT =	"Long Dennis had better appreicate this, not that you had much of a\n"
+			"choice in the matter, anyways. Frankly, pot pie factories aren't\n"
+			"usually supposed to have the stench of sulfur, screams of the damned,"
+			"brimstone, or a lack of any pie crust facilites anywhere in the area.\n"
+			"Long Dennis says the hanged corpses are normal though, as those were\n"
+			"apparently the Space United Kingdom IRS trying to tax him.\n"
+			"\n"
+			"And to make matters worse, the big plods murdered your rabbit-human\n"
+			"kemono-hybrid son, Jimmy Bunny! He may have been about as bright as\n"
+			"a room covered in Vantablack paint, but he was still your pride\n"
+			"and joy. That's just a shitty thing to do, demons, very unfunny.\n"
+			"\n"
+			"Thankfully, you should be en route to Earth by now, and hopefully\n"
+			"Little Jimmy can give as much blessing as his brain can allow to\n"
+			"give you the support needed to get the demons out.";
+/*	Little did Weponguy know that that was FAR from the only pie factory Long
+	Dennis had. If he'd been forced to fully clear out all 7,432 of his infested
+	pot pie and pot pie accessory factories, Earth would've been gone around #452. */
+
+//Super SIGIL-io Bros.
+E5TEXT =	"You're gonna have some rather nasty words to say to Long Dennis\n"
+			"once you make it back to Earth. It was already bad enough to have\n"
+			"to clear his pie factory, but now his personal offshore hellfire\n"
+			"beach cabana? The one back in episode two was already enough of a\n"
+			"workout, you don't need this extra crap in your workload...\n"
+			"\n"
+			"Provided you don't get dumped somewhere unfamiliar again, you've got\n"
+			"a job on Earth to do now, and those demons ain't going to murder\n"
+			"themselves... not without something to kickstart that, anyways.\n"
+			"\n"
+			"Lock, load, rip, tear, glory kill, whatever 2016 got started,\n"
+			"and what Eternal entered into the mainstream, do all that as well.";
+/*	Long Dennis and his people are infamous for their inability to understand
+	the concept of "Dude, I've got more important shit to do, maybe later." */
+
+E6TEXT =	"Dang, a sequel to SIGIL exists at all? Count me impressed. Aside\n"
+			"that, you're REALLY going to have some VERY choice words with\n"
+			"Long Dennis once you finally get back. Once was already bad enough,\n"
+			"twice was just plain ridiculous, and now this!?\n"
+			"\n"
+			"Not cool, Long Dennis, not cool. At least you can finally get\n"
+			"to Earth proper, and finally show Satan MacDonald a piece of your"
+			"mind. I know I would, but my personal opinion doesn't really matter\n"
+			"with these things, especially concerning the quasi-canon.\n"
+			"\n"
+			"Insert Doom: The Dark Ages reference here.";
+/*	The bowels of hell are rich in their time-honored tradition of doors that
+	close on your face 30 seconds after you enter the level, and rooms full of
+	FIREBLU that hold nothing but measly health/armor bonus pickups.
+
+	You wouldn't get it, it's a cultural thing. */
+
+//The one most people use
+C1TEXT =	"Having finally made it to the infested starport, for lack of a\n"
+			"better term, your comm device starts blaring out armym'n stuff\n"
+			"towards your general direction. Looks like the jerks squatting\n"
+			"in your home planet also decided that Earth would make a lovely\n"
+			"place for their terrible metal bands as well. (And I mean the\n"
+			"awful, overly squealy, detuned as hell kind.) Get as deep as you\n"
+			"can into their main studio, slap the big 'ol power switch up ahead,\n"
+			"and you'll have saved Earth from having to hear lousy metal music.\n"
+			"\n"
+			"And actually save their lives too, that might be more important.\n"
+			"Anyways, expect a bunch of lard and spiders this level.";
+/*	Hell doesn't actually like metal music, they only pretend to as a excuse to
+	harass human neighbors, and generally be unpleasant douchebads. 
+	Truly distasteful. */
+
+C2TEXT =	"Looks like that power switch you just slapped did more than just\n"
+			"cut power to cheap-o, power-guzzling loudspeakers. A big 'ol\n"
+			"spaceship takes off into the sky, towards somewhere else in the\n"
+			"solar system. Your armym'n voice coming from the comm device says\n"
+			"its Earth's evacuation ship. (Wasn't a lot to evacuate, it seems.)\n"
+			"\n"
+			"...what now? Another ring from you comm deice, and your next goals\n"
+			"are clear: Take out that bootleg liquor industry Hell cobbled up\n"
+			"somewhere in your hometown. Not wanting to be subject to terrible,\n"
+			"watered-down liquor, you get back up, and you get back at it.";
+//Space Ireland and Space Scotland both agree that demons make VERY crappy booze.
+
+C3TEXT =	"Would you look at that, seems like awful, bootleg booze wasn't the\n"
+			"only thing in that plant~ An awful, fleshy portal that can only be\n"
+			"described with 'take our word for it' manifests before you.\n"
+			"\n"
+			"You've already done most of the legwork to get here in the first\n"
+			"place, so don't you dare turn back now! Besides, Space Ireland's\n"
+			"got some really, REALLY good liquor in it for you if you manage\n"
+			"to save the planet.";
+/*	Hell's original plan WAS to just oversaurate the human market with watered-down,
+	blood-infested crappy booze, but their military commanders got ornery, and
+	that's how the invasion of Earth came to be... or more accurately,
+	crudely taped on. */
+
+C4TEXT =	"With Satan MacDonald finally breating his last, his entrails make a\n"
+			"prompt and quick trip into Hell's lower orbit, as demons around you\n"
+			"instantly kick the bucket left and right. You's did it! You saved\n"
+			"The Earth! And you didn't even have to contend with Long Dennis this\n"
+			"time! ...you then nervously eye your dwindling stash of NRG-Brew\n"
+			"you've been holding on you ever since you got here. When you get\n"
+			"home... there's gonna be a LOT of repopulation to do. That's when\n"
+			"the REAL challenge begins. Hope you're ready for it, buddy.";
+/*	Dutchess is quite notorious for insisting that her husband can go at least 
+	15 more hours. */
+
+C5TEXT =	"A left turn instead of a right in the map you were just in might've\n"
+			"been a better idea. But no time to kick yourself in the head just\n"
+			"yet, you've (presumably) got more jerks, a special kind of jerk,\n"
+			"and many MANY orthogonal angles to deal with.\n"
+			"\n"
+			"Best get movin'.";
+/*	Bugs Bunny actually ended up in Wolfenstein 3D once, but considering that
+	Warner Brothers were most likely more focused on that superhero reboot of
+	Looney Tunes at the time (or was it the 2000s?), his exploits with the Spear
+	of Destiny became the lost media. Truly a tragedy of humanity... */
+
+C6TEXT =	"I don't have anything (allegedly) clever to give you here.\n"
+			"GLHF, don't die, and don't let the Cyber get you on the way out.";
+/*	It wasn't actually the Mastermind that brought the demons to Earth, it was 
+	Mortimer McMire. He was REALLY salty after his defeat, and decided the best
+	way to deal with a problem is with Scorched Earth policy.*/
+
+//Doom 2: Chain Elementals and Paingunners Edition!
+P1TEXT =	"Unsurprisingly, the exit linedef that had flesh growing all over it\n"
+			"and the screaming souls of the damned turned out to be Hell's trap.\n"
+			"Through the arcane, bullcrap power of cutscene incompetence, you\n"
+			"wind up in Demon Jail. Thankfully for you and your mission, whoever\n"
+			"was supposed to keep you locked up thought lardtubs and the spiders\n"
+			"stashed somewhere in the attic make for good security guards.\n"
+			"\n"
+			"Now go forth and kill, the WAD ain't gonna get any easier from here.";
+/*	It's a terribly hidden secret that demons make lousy watchguards. 
+	Blame the sin of Sloth. */
+
+P2TEXT =	"Clearing out that nest of archviles released secrets you've been\n"
+			"fearing ever since you got here: Satan MacDonald's half brother's\n"
+			"trying to pick up where Maccy last left off, and worse...\n"
+			"\n"
+			"He's one of those extremely obnoxious livestreamers! Tier Three subs\n"
+			"and everything! Your dedication to saving Earth oughta pick up from\n"
+			"here if it hasn't; It's only gonna get worse if you let the demons"
+			"dawdle to their own devices.";
+/* This isn't the only half-brother Satan MacDonald has... but he's the only one
+	of the unholy bunch he can tolerate for more than two seconds. Or minutes. */
+
+P3TEXT =	"The stench of dodgy ring lights and cheap-o stage materials fill\n"
+			"your nostrils as you enter Hell proper. MacDonald's half-brother's\n"
+			"on the ropes now! All you's gotta do is deal with his livestreaming\n"
+			"staff, make your way over to his flesh-infested luxury bedroom, and\n"
+			"do what you did to Satan MacDonald! Those rockets ain't gonna do\n"
+			"their job for you, after all!";
+/*	While Hell has its own version of Twitter|X, Facebook, Instagram, YouTube
+	and what-have-you, it's a well-known fact that Hell's version of TikTok and
+	Bluesky and our TikTok and Bluesky are one and the same. */
+
+P4TEXT =	"Flood lights, ring lights, and all sorts of dodgy streaming equipment\n"
+			"violently shatter around you, as do the demons and other jerks running\n"
+			"them in the first place. Looks like Earth's safe once again!\n\n"
+			"This does mean Hell will have to go back to filming sleazy porno,\n"
+			"but at least they're only exploiting their own kind now, rather than\n"
+			"dragging humanity down with them in the process.\n\n"
+			"Now if you're not mistaken, Dutchess has missed you VERY dearly...\n"
+			"and you're still not quite done with the task of repopulating Earth.\n"
+			"Hope you packed some heavy coffee with you, this is gonna be a long,\n"
+			"long month.";
+/*	Weponguy would soon become world-renowned for having brought the once
+	endangered bnuuy kemonos back to thriving populations in only about 
+	half a year. And for his infamous inability to pull out of a driveway. ;) */
+
+P5TEXT =	"Unfortunately, you fell for one of the oldest tricks in the book,\n"
+			"Snide, obnoxious demon cacking blares through your ears as you're\n"
+			"dumped in a large, nasty demonic arena. And this one has more than\n"
+			"a few of his Cybderdemon pets in it. It's not that they betrayed him,\n"
+			"more that they paid beyond the Tier 3 subscription for this.\n"
+			"\n"
+			"You'd better clear this joint and get the hell out of here, before\n"
+			"this mod gets into more detail about that.\n";
+/*	The Cyberdemons are the only ones who can afford the subscription anyways.
+	Not because the demons don't have money, more that Hell's payment services
+	refuse to do buisiness with most demons for dumb, arbitrary reasons, but dump
+	what they're doing to handle the purchases of their demonic masters instantly. */
+
+P6TEXT =	"You know what usually happens when you beat MAP31 in Plutonia wads,\n"
+			"right? It seems that MacDonald's half-brother had something even\n"
+			"worse planned out for you. Normally, you'd have to break out the\n"
+			"stockpile of quicksaves and autosaves... but with your improved\n"
+			"(so to speak) arsenal, this shouldn't be too bad!\n"
+			"\n"
+			"Remember to stay calm, keep the pressure going, avoid Cyberdemon\n"
+			"solicitation, and remember: The crown jewels are the most common\n"
+			"weakness of your average demon. Including the female ones.\n";
+/*	It's hard to tell the difference between a male and a female demon... 
+	because all of them are ugly. And they're evil too, so I don't think that
+	really matters in the long run. */
+
+
+//MtPain27: The IWAD
+T1TEXT =	"Having cleared out the last little bit of problems over at the\n"
+			"technological complex, you breathe a little easier, now that Space\n"
+			"Ireland (and maybe even Space Scotland) don't have to worry about\n"
+			"their fancy brewing equipment going kerput.\n\n"
+			"As fun as it would be to reminisce about the wild keg parties you had\n"
+			"in the places you roam... you quickly push it aside and march over\n"
+			"to their security guard complex.\n\n"
+			"Besides, there's a reason Dutchess didn't want you drinking in the\n"
+			"first place: Most of the corpses you've seen littered around the\n"
+			"place weren't actually due to the demons; People do really, REALLY\n"
+			"stupid things when they're drunk.";
+/*	Actually, the real reason is that bunnygirls can't stand the smell of most
+	boozes, save for sake (rice wine). Do remember, bunnies have very sensitive
+	noses, which before their anthro-ization, was to keep track of who's who. */
+
+T2TEXT =	"Earth's external security forces are operational once again!\n"
+			"Unfortunately, that was all just the easy part of the mission.\n"
+			"Hell's starting to crank out demons like nobody's buisiness now,\n"
+			"and it must have something to do with that ugly looking machinery\n"
+			"way out in the distnace, almost looking like it's orbiting the\n"
+			"planet itself.\n\n"
+			"Do what you always do, and make Space Ireland/Scotland proud.";
+//I don't have anything clever to put here.
+
+T3TEXT =	"You unfortunately knew you'd have to be going back to Hell to bring\n"
+			"the fight to them once again, but looking at a signpost in the\n"
+			"distance... oh god no. No no no no no. Not this shit again.\n\n"
+			"\"You have Entered Long Dennis's Pot Pie Factory #5,482!\"\n\n"
+			"You didn't like having to run this guy's errands the first time\n"
+			"around, but actually needing to go there to resolve the main problem\n"
+			"is a major punch to the gut. Not only is it cranking out new demons\n"
+			"at a horrifying rate, but it's also a well-known fact that demonic\n"
+			"pot pies taste HORRIBLE.\n\n"
+			"You're gonna have a LOT of choice words to say to Long Dennis if\n"
+			"you come out of this alive.";
+/*	Long Dennis is a very, VERY gullible sucker, and the demons were able to take
+	over the entire place for the cost of fifty euros, a set of novelty plastic
+	cups, and some sponge cake in the shape of yellow cake uranium. */
+
+T4TEXT =	"And thus, the jerkwipe that was mulling around in Long Dennis's\n"
+			"overly engineered pie factory is now no more. Whilst you'd love to\n"
+			"do the same thing to the pie factory itself, on account of the crap\n"
+			"you had to deal with in Thy Flesh consumed, it ain't like Dennis\n"
+			"himself did much to piss you off. That, and arson's usually illegal.\n"
+			"But, overall, you'd have to rate your saving of the entire planet,\n"
+			"as well as making your wife happy again, as...\n\n"
+			"GRADE: B+, DIFFICULTY: B";
+
+/*	In this timeline, the Deliquent of Doom never came to be, as his entire
+	family became the unfortunate (to them) example of what happens when you
+	fall into a pot pie meat processing machine. */
+
+T5TEXT =	"...where on earth could you be!? ...wait. Uh oh. You know now.\n"
+			"This must be your ex-wife's many, MANY temples, the one you're\n"
+			"in presumably a shrine to Anubis. But you know well that no matter\n"
+			"whoever god gets worshipped... there sure as hell ain't one in the\n"
+			"pantheon in support of being an unfaithful wife.\n"
+			"\n"
+			"No matter HOW large her tits are.\n\n"
+			"A heart of gold is what truly matters when it comes to the ladies,\n"
+			"and she can't change that.\n";
+//Say it with me now: Celebrity Marriages NEVER last.
+
+T6TEXT =	"Another wrong turn at Ejipt Albuquerque lands you right in the\n"
+			"middle of a cruise ticket agency. Before you can even get a single\n"
+			"word in, the people running the place decided that you won a free\n"
+			"luxury cruise, and sheperded you onto a luxury cruiser ship\n"
+			"alongside the most expensive, highest-tier tickers one could get.\n\n"
+			"You'd rather not let Space Ireland down, but this could be a good\n"
+			"time as any to actually get a break for once. Unfortunately for you,\n"
+			"this noble theory gets proven wrong almost immediately by the\n"
+			"obnoxious screenching of demons, the rowdy tramping and stompng\n"
+			"of cyberdemons, and most likely a whole slew of other demonic\n"
+			"problems stopping you from actually taking a vacation.\n\n\n"
+			"Friggin' tourists.";
+/*	At least he got the GOOD tickets; The Economy Class ticketholders were, in
+	actuality, immediately dumped into the ocean as soon as they got on the boat.
+	This also happens if you're Jon Arbuckle. */
+
+//Does anyone actually play No Rest For the Living?
+NERVETEXT =	"Cyberdemon Billy Bob Joe McJoeseph thought he could turn the Earth\n"
+			"into his personal OpenRCT2 session, but you thankfully not only\n"
+			"proved him wrong, you've also saved Earth's own rollercoasters too!\n"
+			"\n"
+			"Rest well, 'ol hero, for until you have to waltz into a space coffin\n"
+			"and wake up someteen years later to do it all over again, albiet\n"
+			"with fancier graphics, more defined story, and some redesigned \n"
+			"demonic jerks... Dutchess will always be waiting for you.\n"
+			"\n"
+			"No, seriously. Don't keep her waiting. You've still got a lot of\n"
+			"repopulating to do, not to mention an awful lot of parenting.";
+//Thankfully for everyone involved, the OpenRCT2 developers were proved innocent.

@@ -1,0 +1,68 @@
+//Here be the more sillier language strings.
+[enu default]
+GOTGOLDBULLET = "Picked up a gold clip, containing one gold bullet.";
+
+GOLDTAG =		"The Golden Pistol of Destiny";
+OPROCKTAG =		"Slaughtermap Rocket Launcher";
+OPBFGTAG =		"Slaughtermap BFG9000";
+OPSSGTAG =		"Slaughtermap Super Shotgun";
+ULTRATAG =		"Ultra Shotgun";
+SUPER_CHAINTAG =	"Bulletstorm Senior";
+SUPER_ROCKETTAG =	"Rocket Triad Launcher";
+SUPER_PLASMATAG =	"Toaster Rifle Supreme";
+SUPER_FLAMETAG =	"Dual FLAMETHROWAAHS";
+//SUPER_FIST =		"Super Fistpower";
+
+GOLDWOW =		"The golden pistol of destiny.";
+OPROCKWOW =		"Dubiously legal explosive power! ...yay?";
+OPBFGWOW =		"The Infinite BFG! The demons are truly screwed.";
+OPSSGWOW =		"The Infinite SSG: Be afraid. Be VERY afraid.";
+ULTRAWOW =		"Hell's yeah, it's an Ultra Shotgun!";
+SUPER_CHAINWOW =	"Doesn't get any more bullet-ier than the Bulletstorm Sr.!";
+SUPER_ROCKETWOW =	"Explosivo Inducto: El Oscuro's Bane!.";
+SUPER_PLASMAWOW =	"You got the Technobabble Rifle Thingy!";
+SUPER_FLAMEWOW =	"Twin napalm pieces of hate in your hands!";
+//SUPER_FISTWOW =	"You grew two extra hands, for great punching justice!";
+
+GOLDOUCH =	"%o never stood a chance against %k's Golden Pistol of Destiny.";
+GOLDBULLETOUCH =	"%o got in the way of %k's golden bullet.";
+OPROCKOUCH =	"%k nuked %o from existience with an overpowered rocket launcher.";
+OPBFGOUCH =	"%k violated %o even harder than a normal BFG could.";
+OPSSGOUCH =	"%k's infinite buckshot storm made extremely quick work of %o.";
+ULTRAOUCH =	"The Ultra Shotgun of %k wiped %o clean off the map.";
+SUPER_CHAINOUCH =	"%k wiped out an entire direction, with %o somewhere in it.";
+SUPER_ROCKETOUCH =	"%k HUNTed down %o rather lucridiously.";
+SUPER_YOYOUCH =	"%k's dog-walking skills proved worthy against %k.";
+SUPER_PLASMAOUCH =	"%k turned %o into a plasma lightning rod.";
+SUPER_FLAMEOUCH =	"%k did a war crime against %o.";
+//SUPER_FISTOUCH =	"%k made it doubly personal with %o.";
+
+TRIAD_SELECT =	"You have picked %s missiles!\n"
+				"It'll cost you %u cells to change.\n"
+				"Press Reload to confirm your choice.";
+TRIAD_PICKED =	"Missiles have been changed, no refunds!";
+
+STSTR_DQDON =	"Just say no to damage rolls!";
+STSTR_DQDOFF =	"Aww, I got mortal again.";
+STSTR_NCON =	"I reject your rules, level geometry!";
+STSTR_NC2ON =	"What, was normal noclip not enough?";
+STSTR_NCOFF =	"Aww, I got physical again.";
+TXT_BUDDHAON =	"Not quite IDDQD mode on!";
+TXT_BUDDHAOFF =	"Aww, I got mortal again.";
+STSTR_KFAADDED	=	"thislevelsux 0/10";
+STSTR_FAADDED =	"w h e r e 's  m y  a m m o";
+NETEND =	"Wait, you got multiplayer working?";
+ENDGAME =	"Deploy the \"screw this\" button?\n(Does anyone actually use this?)"
+GGSAVED =	"Your hard drives now knows what you did.";
+MSGOFF =	"Ability to read turned off!";
+MSGON =		"Aww, I got literate again.";
+
+QDAM =	"Quad Damage!!!";
+SPED =	"Supa-Speed!";
+AGIS =	"Damage Resistance!";
+ULTRAS =	"U L T R A  S P H E R E ! ! !";
+
+ULTRASTAG =	"Ultra-Sphere";
+
+GOLDISHARMOR =	"Got not-quite gold armor. Cool!";
+DEMONARMOR =	"Super-Tough demon plating! Sweet!";

@@ -1,0 +1,7 @@
+misc/secret = "sounds/SECRET0"
+bye = "sounds/OKBYE0"
+miss = "sounds/SWING"
+click = "sounds/CLICK"
+
+//Good luck trying to 'le no chicken' your way out of this one.
+world/vmabort = "sounds/UZDEAD"

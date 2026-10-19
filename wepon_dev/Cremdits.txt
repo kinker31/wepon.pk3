@@ -1,0 +1,35 @@
+wepon.pk3: I need to kill fast, but bullets too slow.
+(also included with the .zip is adonn.pk3, the stuff you didn't get in wepon!)
+
+The Entryway and Hellforge Discord servers:
+Helpful feedback and general inspiration
+
+Sgt. Shivers and darphysco: Major inspirations for the mod
+
+ChaosVolt, Kinsie,
+	Phantombeta, Blue Shadow, 
+	Player701, Lee Killough,
+	Dr. PySpy: Code borrowing, plus the Shotgunnery mod helped with the HUD
+
+Doomworld and the ZDoom Forums: 
+Used to host my mod, but are still pretty good at what they do, despite the criticisms.
+
+The ZDoom Documenation, Tutorials, and Wiki: Probably obvious.
+
+Neocities: For hosting my mod!
+
+NOT QUITE CREDITS, BUT WILL MENTION ANYWAYS:
+Robot J, Kinsie, and a bunch of other people over at Realm667:
+adonn.pk3 had weapon sprites at some point.
+
+The Eternity Engine: 
+Attempted to make a weaponry mod over at that engine first. 
+Fell though, but at least I learned a bit about DECORATE.
+
+This should probably go without saying, but I thank you, the player,
+for taking the time to play this mod... even if you're poking around my files.
+If you wish to get updates on this mod as they come, follow me over on Twitter/X: @_kinker31!
+Although updates are also on Bluesky over at matrixDoppelgänger@kinker31.com,
+I'd rather not stay there full time; things aren't very good over there.
+
+Credits for the sounds can be found in it's respective folder.

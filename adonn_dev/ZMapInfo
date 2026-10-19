@@ -1,0 +1,18 @@
+GameInfo
+{
+	TitlePage = "EPICERTITLE"
+	QuitMessages =  "$QUITM1" , "$QUITM2" , "$QUITM3" , "$QUITM4" , "$QUITM5" , 
+					"$QUITM6" , "$QUITM7" , "$QUITM8" , "$QUITM9" , "$QUITM10", 
+					"$QUITM11", "$QUITM12", "$QUITM13", "$QUITM14", "$QUITM15", 
+					"$QUITM16", "$QUITM17", "$QUITM18", "$QUITM19", "$QUITM20",
+					"$QUITM21", "$QUITM22", "$QUITM23", "$QUITM24", "$QUITM25", 
+					"$QUITM26", "$QUITM27", "$QUITM28", "$QUITM29", "$QUITM30", 
+					"$QUITM31", "$QUITM32", "$QUITM33", "$QUITM34", "$QUITM35", 
+					"$QUITM36", "$QUITM37", "$QUITM38", "$QUITM39", "$QUITM40",
+					"$QUITM41", "$QUITM42", "$QUITM43", "$QUITM44", "$QUITM45", 
+					"$QUITM46", "$QUITM47", "$QUITM48", "$QUITM49", "$QUITM50",
+					"$QUITM51", "$QUITM52", "$QUITM53", "$QUITM54", "$QUITM55", 
+					"$QUITM56", "$QUITM57", "$QUITM58", "$QUITM59", "$QUITM60"
+	QuitSound = "byenow"
+	AddEventHandlers =  "AdonnHand"
+}

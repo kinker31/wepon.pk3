@@ -1,0 +1,23 @@
+# Wepon-Related Bonsai Stuff
+ifdef BaseWepon {
+	type TenFingerDiscount:	MELEE WIMPY;
+	type Vroom:				MELEE WIMPY;
+	type SemiAutoShotty: 	HITSCAN;
+	type BigFuckingGun: 	PROJECTILE;
+	#Fuel-based weapons only get Fire/Electric upgrades
+	disable FLAMETHROWAH:	TFLV_Upgrade_PoisonShots
+							TFLV_Upgrade_CorrosiveShots;
+	disable HotDamn:	TFLV_Upgrade_PoisonShots
+						TFLV_Upgrade_CorrosiveShots;
+}
+
+# Adonn-Related Bonsai Stuff
+ifdef GoldPistol {
+	#Infinite-ammo weapons do not get upgrades.
+	type HoovyLauncher:	IGNORE;
+	type HoovyBFG: 		IGNORE;
+	type HoovySSG:		IGNORE;
+	#Disabling logic applies here too.
+	disable SupaThrowaa:	TFLV_Upgrade_PoisonShots
+							TFLV_Upgrade_CorrosiveShots;
+}
