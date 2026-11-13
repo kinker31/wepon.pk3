@@ -1,6 +1,6 @@
 # Wepon-Related Bonsai Stuff
 ifdef BaseWepon {
-	type TenFingerDiscount:	MELEE WIMPY;
+	type PunchO:	MELEE WIMPY;
 	type Vroom:				MELEE WIMPY;
 	type SemiAutoShotty: 	HITSCAN;
 	type BigFuckingGun: 	PROJECTILE;

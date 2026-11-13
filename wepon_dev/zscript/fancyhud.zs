@@ -1,17 +1,29 @@
 class FuckYouSBARINFO: BaseStatusBar
 {
-	InventoryBarState diparms; HUDFont mHUDFont; HUDFont mIndexFont; HUDFont mAmountFont; HUDFont consfont; int vOff; int off; int slotStatus[6];
+	InventoryBarState diparms; HUDFont mHUDFont; HUDFont mIndexFont;
+	HUDFont mAmountFont; HUDFont consfont; int slotStatus[6], amtLast[14], 
+	vOff, off, lastHelf, lastOrm, lastFrag; string helfStr, ormStr, fragStr, amtStr[14];
+	class<Inventory> ammoTypes[7];
 	//off and vOff are to make sure the HUD elemets are positioned properly on the HUD
+	
+	string NumStr(int slot, int value)
+	{if(amtLast[slot] != value || amtStr[slot] == "")
+	{amtLast[slot] = value; amtStr[slot] = String.Format("%d", value);}
+		return amtStr[slot];}
 	
 	override void Init()
 	{//Hopefully the Shotgunnery mod doesn't mind letting me borrow some of this...
-	Super.Init(); SetSize(32, 320, 200); Font fnt = "HUDFONT_DOOM"; 
+	Super.Init(); lastHelf = -1; lastOrm = -1; lastFrag = -1;
+	SetSize(32, 320, 200); Font fnt = "HUDFONT_DOOM"; 
 	mHUDFont = HUDFont.Create(fnt, fnt.GetCharWidth("0"), Mono_CellLeft, 1, 1);
 	fnt = "INDEXFONT_DOOM"; 
 	mIndexFont = HUDFont.Create(fnt, fnt.GetCharWidth("0"), Mono_CellLeft);
 	mAmountFont = HUDFont.Create("INDEXFONT"); consfont = HUDFont.Create("Confont"); 
 	diparms = InventoryBarState.Create(null, Font.CR_RED, 1.0, "BARPART5", 
-				"THINGYPICK", (0, 0), "SHIFT2", "SHIFT1", (0, 0));}
+				"THINGYPICK", (0, 0), "SHIFT2", "SHIFT1", (0, 0));
+	ammoTypes[0] = "NewClip";  ammoTypes[1] = "NewShell"; ammoTypes[2] = "NewRocketAmmo";
+	ammoTypes[3] = "NewCell"; ammoTypes[4] = "NewFuel"; ammoTypes[5] = "BFGCell"; 
+	ammoTypes[6] = "DiabloFuel";}
 	
 	override void Draw(int state, double TicFrac)
 	{Super.Draw(state, TicFrac);
@@ -63,20 +75,21 @@ class FuckYouSBARINFO: BaseStatusBar
 		int hammo[7], hammoMax[7], hammoA, hammoB; Ammo pointerA, pointerB;
 		[pointerA, pointerB, hammoA, hammoB] = GetCurrentAmmo(); 
 		bool clp = pointerA != pointerB; for(uint i; i < 7; i++)
-		{[hammo[i], hammoMax[i]] = GetAmount(types[i]);} vOff = bar? -28: 4; 
+		{[hammo[i], hammoMax[i]] = GetAmount(ammoTypes[i]);} vOff = bar? -28: 4; 
 		off = bar? texflags[0]: texflags[1]; 
 		if(pointerA) {DrawString(mHudFont, ""..hammoA, (44, vOff), off|sr, 
 			ColorHandler(hammoA, pointerA.MaxAmount));}
 		if(pointerB && clp) {DrawString(consfont, ""..hammoB, (0, vOff - 4), off|sl, 
 		ColorHandler(hammoB, pointerB.MaxAmount), 1.0, -1, 4, (0.5, 0.5));}
-		DrawString(mHudFont, String.Format("%d\cj%%", helf), (104, vOff), 
-			off|sr, ColorHandler(helf, helfMax));
+		if(helf != lastHelf) {lastHelf = helf; helfStr = String.Format("%d\cj%%", helf);}
+		DrawString(mHudFont, helfStr, (104, vOff), off|sr, ColorHandler(helf, helfMax));
 		off = bar? texflags[2]: texflags[3]; if(armpoint)
 		{DrawString(mHudFont, String.Format("%d\cj%%", orm), (-72, vOff), 
 			off|sr, ArmorColor(armpoint.savepercent));}
 		int vt = vOff - 3; for(uint i; i < 5; i++)
-		{DrawString(mIndexFont, ""..hammo[i], (-30, vt), off|sr);
-		DrawString(mIndexFont, ""..hammoMax[i], (-5, vt), off|sr); vt += 6;}
+		{DrawString(mIndexFont, NumStr(i, hammo[i]), (-30, vt), off|sr);
+		DrawString(mIndexFont, NumStr(i + 5, hammoMax[i]), (-5,  vt), off|sr);
+			vt += 6;}
 		vt = bar? -41: 32; int vt2 = bar? -8: 8; if(cellsystem)
 		{DrawString(consfont, String.Format("BFG: %d/%d", hammo[5],
 					hammoMax[5]), (-130, vt), off|sl);

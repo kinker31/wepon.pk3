@@ -7,11 +7,11 @@ class DualPistols: BaseWepon
 	
 	action void PewPewPistol()
 	{vector2 aiming = altpistol? (7.5, 2.5) : (2.5, 1.);
-	uint dice = altpistol? 4 : 3, dam = altpistol? 4 : 10, limb;
+	uint dice = altpistol? 4 : 3, dam = altpistol? 2 : 4, limb;
 		if(invoker.mode) {limb = altpistol? 2 : 3;
 			WeponPBoolet(dam, 1, dice, limb, 1024, aiming, eat: (!altpistol));}
-		else {dam += altpistol? 8 : 12;
-			WeponBoolet(2, dam, dice, aiming, true);}
+		else {dam += altpistol? 3 : 6;
+			WeponBoolet(1, dam, dice, aiming, true);}
 	A_StartSound("weapons/pistol"); A_Light1();}
 	
 	action void PewPewAltFire(int iter, double maxAngle)

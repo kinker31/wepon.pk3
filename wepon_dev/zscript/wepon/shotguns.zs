@@ -3,7 +3,7 @@ class SemiAutoShotty : BaseWepon
 	Default {Inventory.PickupMessage "$SHOTWOW"; Obituary "$SHOTOUCH";
 	Tag "$TAGSHOT"; Weapon.SlotNumber 3; +WEAPON.NOAUTOFIRE; +WEAPON.AMMO_CHECKBOTH;
 	Weapon.AmmoType1 "SemiAutoClip"; Weapon.AmmoType2 "NewShell"; Weapon.AmmoGive1 0; 
-	Weapon.AmmoGive2 4;} int max, a, b; const USE1 = 1; const USE2 = 4;
+	Weapon.AmmoGive2 4;} int max; const USE1 = 1; const USE2 = 4;
 	
 	action void FireRocks(uint amount, double spread, double offset)
 	{vector2 angles, sets; bool cen, dir, lef;
@@ -65,7 +65,7 @@ class SuperDeluxeShotgun: BaseWepon
 	Obituary "$SUPEROUCH"; Tag "$SUPERTAG"; +WEAPON.NOAUTOFIRE; 
 	+WEAPON.AMMO_CHECKBOTH; Weapon.AmmoType1 "DeluxeClip"; Weapon.AmmoUse1 2;
 	Weapon.AmmoType2 "NewShell"; Weapon.AmmoGive1 0; Weapon.AmmoGive2 4;}
-	int max, a, b; const SMIN = 2; const SMAX = 4;
+	int max; const SMIN = 2; const SMAX = 4;
 	
 	action void A_DoubleBarrel (bool altfire)
 	{invoker.AmmoUse1 = altfire? SMAX : SMIN;
@@ -109,7 +109,7 @@ class SuperDeluxeShotgun: BaseWepon
 		Loop;
 	ReloadDone:	SHT2 G 4; SHT2 H 6 A_StartSound("weapons/sshotc"); Goto Ready;
 	Flash:		SHT2 I 3 Bright A_Light1(); SHT2 J 3 Bright A_Light2(); Goto LightDone;
-	Spawn:		SGN2 A -1; Stop;}
+	}
 }
 
 //	These two ammotypes use Ammo1 for their reloading mechanics, set 

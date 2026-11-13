@@ -4,6 +4,6 @@ GameInfo
 	StatusBarClass = "FuckYouSBARINFO"
 	TitlePage = "EPICTITLE"
 	QuitMessages =  "$QUITMESSAGE"
-	AddEventHandlers =  "id24Handler", "ReplaceVanillaActors", "BFGCellHandler", "id24SpawnLogic", "UZDoomDiesWhenItsKilled"
+	AddEventHandlers =  "id24Handler", "ReplaceVanillaActors", "WeponHandler", "UZDoomDiesWhenItsKilled"
 	QuitSound = "bye"
 }

@@ -37,7 +37,7 @@ class BaseWepon: Weapon
 		yin = atan2(finalDir.y, finalDir.x); 
 		yan = -asin(clamp(finalDir.z, -1.0, 1.0)); return yin, yan;}
 	
-	quat playerAngle; double yin2, yan2; vector3 offThree;
+	quat playerAngle; double yin2, yan2;
 	
 	//num follows A_FireBullets convention, hence the signed int
 	action void WeponBoolet(int num, uint dam, uint modu, vector2 deviation, 
@@ -63,16 +63,20 @@ class BaseWepon: Weapon
 	vector3 APUnit(double ang, double pit)
 	{vector2 plane = AngleToVector(ang);
 		return (plane.x, plane.y, sin(-pit));}
-
+	
+	Array<Actor> pierceHits;
 	action void WeponPierce(uint dam = 5, uint limit = 3,
 	double maxDist = 8192,  vector2 stangle = (0, 0), vector2 offset = (0, 0), 
 	class<actor> pSpawn = "BulletPuff", bool wallSpawn = true)
-	{double budget = maxDist; Array<Actor> monters; FLineTraceData datum;
+	{Aimbo(Quat.FromAngles(angle, BulletSlope(), roll), dam, limit, maxDist, 
+		stangle, offset, pSpawn, wallSpawn);}
+	
+	action void Aimbo(quat querp, uint dam, uint limit, double maxDist, 
+	vector2 stangle, vector2 offset, class<actor> pSpawn, bool wallSpawn)
+	{invoker.pierceHits.Clear(); double budget = maxDist; FLineTraceData datum;
 		vector3 orPos = (pos.x, pos.y, pos.z + player.viewz - pos.z), pomp; 
-		bool hit, realHit; double autoPitch = BulletSlope();
-		invoker.playerAngle = Quat.FromAngles(angle, autoPitch, roll);
-		[invoker.yin2, invoker.yan2] = 
-			GimbalUnlocker(invoker.playerAngle, stangle, false);
+		bool hit, realHit;
+		[invoker.yin2, invoker.yan2] = GimbalUnlocker(querp, stangle, false);
 		vector3 hump = invoker.APUnit(invoker.yin2, invoker.yan2);
 		do 
 			{realHit = false; hit = LineTrace(invoker.yin2, budget, invoker.yan2, 
@@ -83,10 +87,12 @@ class BaseWepon: Weapon
 				{if(!wallSpawn) {break;} vector3 norm = pomp - (hump);
 					SpawnPuff(pSpawn, norm, invoker.angle, 0, 1); 
 						break;} let pointy = datum.HitActor; 
-			if(!pointy){break;} if(monters.Find(pointy) == monters.Size() && 
-			invoker.LimitCheck(monters.Size(), limit)) 
+			if(!pointy){break;}
+			if(invoker.pierceHits.Find(pointy) == invoker.pierceHits.Size() &&
+			invoker.LimitCheck(invoker.pierceHits.Size(), limit))
 				{realHit = true; pointy.DamageMobj(self, self, dam, 'Hitscan'); 
-					monters.Push(pointy); pointy.SpawnBlood(pomp, angle, dam);
+					invoker.pierceHits.Push(pointy);
+					pointy.SpawnBlood(pomp, angle, dam);
 					orPos = pomp + (hump * 2); budget -= datum.Distance;
 					SpawnPuff(pSpawn, pomp, invoker.angle, 0, 1);}
 			else 
@@ -108,12 +114,11 @@ class BaseWepon: Weapon
 	
 	action Actor, Actor WeponProj(class<Actor> flingy, vector2 eulerAng = (0, 0),
 	vector2 offsets = (0, 0), bool nomAmmo = true)
-	{Actor misl1, misl2; double tangle, titch;
-		invoker.playerAngle = Quat.FromAngles(angle, pitch, roll);
-		[invoker.yin2, invoker.yan2] = 
-		GimbalUnlocker(invoker.playerAngle, eulerAng, false);
-		tangle = DeltaAngle(angle, invoker.yin2);
-		titch = DeltaAngle(pitch, invoker.yan2);
+	{Actor misl1, misl2; double tangle = 0, titch = 0;
+    if(eulerAng.x != 0 || eulerAng.y != 0)
+		{quat aim = Quat.FromAngles(angle, pitch, roll);
+		double yin, yan; [yin, yan] = GimbalUnlocker(aim, eulerAng, false);
+		tangle = DeltaAngle(angle, yin); titch = DeltaAngle(pitch, yan);}
 		[misl1, misl2] = A_FireProjectile(flingy, tangle, nomAmmo, offsets.x,
 										  offsets.y, FPF_NOAUTOAIM, titch);
 		if(misl1 && misl2) {return misl1, misl2;} 
@@ -122,9 +127,8 @@ class BaseWepon: Weapon
 	
 	static uint, uint GetBuckshot(uint budget, uint maxSlugs)
 	{uint hatValue, s, b = 0; while(budget != 0)
-	{uint hatValue = random(0, 4); if(hatValue == 4 && s < maxSlugs && budget > 2) 
-									{s++; budget -= 3;} else {b++; budget -= 1;}}
-	return s, b;}
+	{hatValue = random(0, 4); if(hatValue == 4 && s < maxSlugs && budget > 2) 
+		{s++; budget -= 3;} else {b++; budget -= 1;}} return s, b;}
 	
 	//True is for slugs, false for buckshot.
 	static uint pCalc(bool typeB)

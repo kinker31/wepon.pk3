@@ -69,5 +69,5 @@ class MoreDakka : BaseWepon
 		TNT1 A 0 A_StartSound("click"); Loop;
 	FlashA:		CHGF A 2 Bright A_Light1; Goto LightDone; 
 	FlashB:		CHGF B 2 Bright A_Light2; Goto LightDone;
-	Spawn:		MGUN A -1; Stop;}
+	}
 }
